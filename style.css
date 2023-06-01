@@ -1,12 +1,17 @@
-@import url(“styles/header.css”);
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
 
- :root {
-  --cor-de-fundo: #EBECEE;
-  --branco: #FFFFFF;
-  }
- body {
- background-color: var(--cor-de-fundo);
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #2523a7;
 }
-  h1 {
-  background-color: rgb(189, 45, 45);
+body {
+    background-color: var(--cor-de-fundo);
+}
+.cabecalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("./img/MenuAberto.png");
+    display: inline-block;
 }
